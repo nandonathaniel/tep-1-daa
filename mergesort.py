@@ -61,7 +61,7 @@ def main():
         print("tidak aman")
 
 if __name__ == "__main__":
-    folder_path = "temp"
+    folder_path = "arrays"
 
     txt_files = [file for file in os.listdir(folder_path) if file.endswith(".txt")]
 
